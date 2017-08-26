@@ -11,7 +11,7 @@ import com.cc.demo.kotlin.holder.ViewHolder
 import com.cc.demo.kotlin.util.ToastUtil
 
 class MainActivity : AppCompatActivity() {
-    val mContext by lazy { this } //这里使用了委托，表示只有使用到instance才会执行该段代码
+    val mContext by lazy { this } //这里使用了委托，表示只有使用到mContext才会执行该段代码
     //? 说明变量可为空
     var mRcv: RecyclerView? = null
     var mTitleTv: TextView? = null
