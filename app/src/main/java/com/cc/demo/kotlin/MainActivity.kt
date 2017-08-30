@@ -1,5 +1,6 @@
 package com.cc.demo.kotlin
 
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
@@ -22,8 +23,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initData();
+        initData()
         initView()
+
     }
 
     private fun initData() {
