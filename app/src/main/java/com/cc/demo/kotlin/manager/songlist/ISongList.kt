@@ -3,7 +3,7 @@ package com.cc.demo.kotlin.manager.songlist
 import com.cc.demo.kotlin.bean.SongBean
 
 /**
- * 歌曲列表管理接口
+ * 歌单管理接口
  * Created by ZhangYu on 2017/8/30.
  */
 interface ISongList {
