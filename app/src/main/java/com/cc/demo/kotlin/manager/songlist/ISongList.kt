@@ -4,7 +4,7 @@ import com.cc.demo.kotlin.bean.SongBean
 
 /**
  * 歌单管理接口
- * Created by ZhangYu on 2017/8/30.
+ * Created by ZhangYu on 2017/8/30
  */
 interface ISongList {
 
