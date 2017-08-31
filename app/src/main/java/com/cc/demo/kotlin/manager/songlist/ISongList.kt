@@ -34,6 +34,11 @@ interface ISongList {
     fun deleteSong(song: SongBean)
 
     /**
+     * 从歌单删除歌曲
+     */
+    fun deleteSong(songName: String)
+
+    /**
      * 从歌单获取歌曲
      */
     fun getSong(songName: String)
